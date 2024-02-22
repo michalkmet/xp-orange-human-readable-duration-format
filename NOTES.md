@@ -11,5 +11,5 @@
 Pomodoro 1:
 
 - ✅ DONE Initial refactor
-- ⚠ TODO Examples
+- ✅ DONE Examples
 - ⚠ TODO User stories + uats
