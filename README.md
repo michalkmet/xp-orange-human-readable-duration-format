@@ -45,7 +45,7 @@ Example 5:
 formatDuration(61) -> '1 minute and 1 second'
 
 Example 6:
-formatDuration(61) -> '1 minute and 2 seconds'
+formatDuration(62) -> '1 minute and 2 seconds'
 
 Example 7:
 formatDuration(120) -> '2 minutes'
