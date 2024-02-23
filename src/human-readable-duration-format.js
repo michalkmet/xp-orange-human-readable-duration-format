@@ -10,9 +10,15 @@ function formatDuration(ts) {
 
   let result = [];
 
-  if (minutes === 1) {
-    result.push(minutes + ' minute');
-  }
+  // if (minutes === 1) {
+  //   result.push(minutes + ' minute');
+  // }
+
+  // if (minutes > 1) {
+  //   result.push(minutes + ' minutes');
+  // }
+
+  minutes === 1 ? result.push(minutes + ' minute') : result.push(minutes + ' minutes');
 
   if (seconds === 1) {
     result.push(seconds + ' second');
