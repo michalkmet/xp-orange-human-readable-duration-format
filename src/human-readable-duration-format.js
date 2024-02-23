@@ -1,5 +1,5 @@
 function formatDuration() {
-  return 'hello';
+  return 'now';
 }
 
 module.exports = formatDuration;
