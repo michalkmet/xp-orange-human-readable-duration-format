@@ -1,8 +1,12 @@
 function formatDuration(ts) {
   console.log('Timestamp: ', ts);
 
+  const timeStrings = ['minute', 'second'];
+
   let seconds = ts % 60;
   let minutes = Math.floor(ts / 60);
+
+  const values = [minutes, seconds];
 
   if (ts === 0) {
     return 'now';
@@ -10,29 +14,34 @@ function formatDuration(ts) {
 
   let result = [];
 
-  if (minutes === 1) {
-    result.push(minutes + ' minute');
-  }
-
-  if (minutes > 1) {
-    result.push(minutes + ' minutes');
-  }
-
-  if (seconds === 1) {
-    result.push(seconds + ' second');
-  } else if (seconds < 60 && seconds > 1) {
-    result.push(seconds + ' seconds');
+  for (let i in values) {
+    let value = values[i];
+    if (value > 0) {
+      result.push(`${value} ${timeStrings[i]}${oneOrMoreString(value)}`);
+    }
   }
 
   console.log('minutes: ', minutes);
   console.log('seconds: ', seconds);
   console.log('result: ', result);
 
-  let resultString = result[0];
-  if (result.length > 1) {
-    resultString += ' and ' + result[1];
+  return concatenateResult(result);
+}
+
+function oneOrMoreString(i) {
+  return i > 1 ? 's' : '';
+}
+
+function concatenateResult(res) {
+  let str = '';
+  for (let i in res) {
+    let item = res[i];
+    if (str != '' && i > 0) {
+      str += ' and ';
+    }
+    str += item;
   }
-  return resultString;
+  return str;
 }
 
 module.exports = formatDuration;
