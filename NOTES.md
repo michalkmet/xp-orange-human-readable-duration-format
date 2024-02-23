@@ -28,7 +28,11 @@ As a user, I want to see time duration for numbers lower than 3600
 Pomodoro 3:
 Aljosa navigator Martin Driver
 
-- ⚠ TODO UAT1.5 When I pass 61 then I want to see '1 minute and 1 second'
-- ⚠ TODO UAT1.6 When I pass 62 then I want to see '1 minute and 2 seconds'
+- ✅ TODO UAT1.5 When I pass 61 then I want to see '1 minute and 1 second'
+
+Pomodoro 4:
+Aljosa Driver Miso Navigator
+
+- ✅ TODO UAT1.6 When I pass 62 then I want to see '1 minute and 2 seconds'
 - ⚠ TODO UAT1.7 When I pass 120 then I want to see '2 minutes'
 - ⚠ TODO UAT1.8 When I pass 183 then I want to see '3 minutes and 3 seconds'

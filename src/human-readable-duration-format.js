@@ -1,11 +1,5 @@
 function formatDuration(ts) {
-  // if (seconds === 1) {
-  //   return '1 second';
-  // } else if (seconds === 59) {
-  //   return '59 seconds';
-  // } else {
-  //   return 'now';
-  // }
+  console.log('Timestamp: ', ts);
 
   let seconds = ts % 60;
   let minutes = Math.floor(ts / 60);
@@ -26,9 +20,9 @@ function formatDuration(ts) {
     result.push(seconds + ' seconds');
   }
 
-  console.log(minutes);
-  console.log(seconds);
-  console.log(result);
+  console.log('minutes: ', minutes);
+  console.log('seconds: ', seconds);
+  console.log('result: ', result);
 
   let resultString = result[0];
   if (result.length > 1) {
