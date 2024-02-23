@@ -16,4 +16,8 @@ describe('As a user, I want to see time duration for numbers lower than 3600', (
   it("UAT1.4 When I pass 60 then I want to see '1 minute'", () => {
     expect(formatDuration(60)).toBe('1 minute');
   });
+
+  it("UAT1.5 When I pass 61 then I want to see '1 minute and 1 second'", () => {
+    expect(formatDuration(61)).toBe('1 minute and 1 second');
+  });
 });
