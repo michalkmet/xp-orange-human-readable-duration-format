@@ -12,32 +12,20 @@ As a user, I want to see time duration for numbers lower than 3600
 - ⚠ TODO UAT1.7 When I pass 120 then I want to see '2 minutes'
 - ⚠ TODO UAT1.8 When I pass 183 then I want to see '3 minutes and 3 seconds'
 
-Example 9:
-formatDuration(3600) -> '1 hour'
+User Story 2: hours
+As a user, I want to see time duration for numbers higher than 3600
 
-Example 10:
-formatDuration(7200) -> '2 hours'
+- ⚠ TODO UAT2.1 When I pass 3600 then I want to see '1 hour'
+- ⚠ TODO UAT2.2 When I pass 7200 then I want to see '2 hours'
+- ⚠ TODO UAT2.3 When I pass 3660 then I want to see '1 hour and 1 minute'
+- ⚠ TODO UAT2.4 When I pass 3661 then I want to see '1 hour, 1 minute and 1 second'
+- ⚠ TODO UAT2.5 When I pass 3669 then I want to see '1 hour, 1 minute and 9 seconds'
+- ⚠ TODO UAT2.6 When I pass 3720 then I want to see '1 hour and 2 minutes'
+- ⚠ TODO UAT2.7 When I pass 3721 then I want to see '1 hour, 2 minutes and 1 second'
+- ⚠ TODO UAT2.8 When I pass 10980 then I want to see '3 hours and 3 minutes'
+- ⚠ TODO UAT2.9 When I pass 14648 then I want to see '4 hours, 4 minutes and 8 seconds'
 
-Example 11:
-formatDuration(3660) -> '1 hour and 1 minute'
+User Story 3: days
+As a user, I want to see time duration for numbers higher than 86400
 
-Example 12:
-formatDuration(3661) -> '1 hour, 1 minute and 1 second'
-
-Example 13:
-formatDuration(3669) -> '1 hour, 1 minute and 9 seconds'
-
-Example 16:
-formatDuration(3720) -> '1 hour and 2 minutes'
-
-Example 17:
-formatDuration(3721) -> '1 hour, 2 minutes and 1 second'
-
-Example 18:
-formatDuration(10980) -> '3 hours and 3 minutes'
-
-Example 19:
-formatDuration(14648) -> '4 hours, 4 minutes and 8 seconds'
-
-Example 20:
-formatDuration(86400) -> '1 day'
+- ⚠ TODO UAT3.1 When I pass 86400 then I want to see '1 day'
