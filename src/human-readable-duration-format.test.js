@@ -33,3 +33,9 @@ describe('As a user, I want to see time duration for numbers lower than 3600', (
     expect(formatDuration(183)).toBe('3 minutes and 3 seconds');
   });
 });
+
+describe('As a user, I want to see time duration for numbers higher than 3600', () => {
+  it("UAT2.1 When I pass 3600 then I want to see '1 hour'", () => {
+    expect(formatDuration(3600)).toBe('1 hour');
+  });
+});
