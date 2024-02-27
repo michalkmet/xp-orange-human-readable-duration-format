@@ -107,4 +107,7 @@ describe('User Story 5: month', () => {
   it("UAT5.1 When I pass 2419200 then I want to see '1 month'", () => {
     expect(formatDuration(2419200)).toBe('1 month');
   });
+  it("UAT5.2 When I pass 3114061 then I want to see '1 month, 1 week, 1 day, 1 hour, 1 minute and 1 second'", () => {
+    expect(formatDuration(3114061)).toBe('1 month, 1 week, 1 day, 1 hour, 1 minute and 1 second');
+  });
 });
