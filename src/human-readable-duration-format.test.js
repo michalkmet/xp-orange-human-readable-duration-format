@@ -50,4 +50,7 @@ describe('As a user, I want to see time duration for numbers higher than 3600', 
   it("UAT2.5 When I pass 3669 then I want to see '1 hour, 1 minute and 9 seconds'", () => {
     expect(formatDuration(3669)).toBe('1 hour, 1 minute and 9 seconds');
   });
+  it("UAT2.6 When I pass 3720 then I want to see '1 hour and 2 minutes'", () => {
+    expect(formatDuration(3720)).toBe('1 hour and 2 minutes');
+  });
 });
