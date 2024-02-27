@@ -53,7 +53,7 @@ Pomodoro 7:
 
 - ✅ DONE UAT2.3 When I pass 3660 then I want to see '1 hour and 1 minute'
 - ✅ DONE UAT2.4 When I pass 3661 then I want to see '1 hour, 1 minute and 1 second'
-- ⚠ TODO UAT2.5 When I pass 3669 then I want to see '1 hour, 1 minute and 9 seconds'
+- ✅ DONE UAT2.5 When I pass 3669 then I want to see '1 hour, 1 minute and 9 seconds'
 - ⚠ TODO UAT2.6 When I pass 3720 then I want to see '1 hour and 2 minutes'
 - ⚠ TODO UAT2.7 When I pass 3721 then I want to see '1 hour, 2 minutes and 1 second'
 - ⚠ TODO UAT2.8 When I pass 10980 then I want to see '3 hours and 3 minutes'
