@@ -7,13 +7,15 @@ function formatDuration(ts) {
   let minutes = Math.floor(ts / 60) % 60;
   let hours = Math.floor(ts / 3600) % 24;
   let day = Math.floor(ts / 86400) % 86400;
+  let week = Math.floor(ts / 604800) % 604800;
   console.log('seconds: ', seconds);
   console.log('minutes: ', minutes);
   console.log('hours: ', hours);
   console.log('day: ', day);
+  console.log('week: ', week);
 
-  const values = [day, hours, minutes, seconds];
-  console.log('values: ', values);
+  const values = [week, day, hours, minutes, seconds];
+  console.log('values : ', values);
 
   if (ts === 0) {
     return 'now';

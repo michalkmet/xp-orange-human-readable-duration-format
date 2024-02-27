@@ -74,3 +74,11 @@ Pomodoro 8:
 - ✅ DONE UAT3.6 When I pass 180000 then I want to see '2 days and 2 hours'
 - ✅ DONE UAT3.7 When I pass 180120 then I want to see '2 days, 2 hours and 2 minutes'
 - ✅ DONE UAT3.8 When I pass 180123 then I want to see '2 days, 2 hours, 2 minutes and 3 seconds'
+- ✅ DONE examples + uats
+
+- 🚧 IN PROGRESS User Story 4: weeks
+  As a user, I want to see time duration for numbers higher than 604800
+
+- 🚧 IN PROGRESS UAT4.1 When I pass 604800 then I want to see '1 week'
+- ⚠ TODO UAT4.2 When I pass 694861 then I want to see '1 week, 1 day, 1 hour, 1 minute and 1 second'
+- ⚠ TODO UAT4.3 When I pass 694861 then I want to see '2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds'
