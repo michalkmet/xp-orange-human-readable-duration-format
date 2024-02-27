@@ -60,3 +60,17 @@ Pomodoro 7:
 - ✅ DONE UAT2.8 When I pass 10980 then I want to see '3 hours and 3 minutes'
 - ✅ DONE UAT2.9 When I pass 14648 then I want to see '4 hours, 4 minutes and 8 seconds'
 - ✅ DONE new examples
+
+Pomodoro 8:
+
+- 🚧 IN PROGRESSUser Story 3: days
+  As a user, I want to see time duration for numbers higher than 86400
+
+- 🚧 IN PROGRESS UAT3.1 When I pass 86400 then I want to see '1 day'
+- ⚠ TODO UAT3.2 When I pass 90000 then I want to see '1 day and 1 hour'
+- ⚠ TODO UAT3.3 When I pass 90060 then I want to see '1 day, 1 hour and 1 minute'
+- ⚠ TODO UAT3.4 When I pass 90061 then I want to see '1 day, 1 hour, 1 minute and 1 second'
+- ⚠ TODO UAT3.5 When I pass 172800 then I want to see '2 days'
+- ⚠ TODO UAT3.6 When I pass 180000 then I want to see '2 days and 2 hours'
+- ⚠ TODO UAT3.7 When I pass 180120 then I want to see '2 days, 2 hours and 2 minutes'
+- ⚠ TODO UAT3.8 When I pass 180123 then I want to see '2 days, 2 hours, 2 minutes and 3 seconds'
