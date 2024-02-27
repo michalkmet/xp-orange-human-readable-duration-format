@@ -114,3 +114,9 @@ describe('User Story 5: month', () => {
     expect(formatDuration(8733845)).toBe('3 months, 2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds');
   });
 });
+
+describe('User Story 6: years', () => {
+  it("UAT6.1 When I pass 29030400 then I want to see '1 year'", () => {
+    expect(formatDuration(29030400)).toBe('1 year');
+  });
+});
