@@ -41,12 +41,17 @@ function concatenateResult(res) {
   let str = '';
   for (let i in res) {
     let item = res[i];
-    if (str != '' && Number(i) + 1 == res.length) {
-      str += ' and ';
-    } else if (i != 0) {
-      str += ', ';
-    }
+    str = addCommaOrAnd(str, i, res);
     str += item;
+  }
+  return str;
+}
+
+function addCommaOrAnd(str, i, res) {
+  if (str != '' && Number(i) + 1 == res.length) {
+    str += ' and ';
+  } else if (i != 0) {
+    str += ', ';
   }
   return str;
 }
