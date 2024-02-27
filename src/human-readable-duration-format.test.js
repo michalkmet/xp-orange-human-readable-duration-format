@@ -71,4 +71,7 @@ describe('As a user, I want to see time duration for numbers higher than 86400',
   it("UAT3.2 When I pass 90000 then I want to see '1 day and 1 hour'", () => {
     expect(formatDuration(90000)).toBe('1 day and 1 hour');
   });
+  it("UAT3.3 When I pass 90060 then I want to see '1 day, 1 hour and 1 minute'", () => {
+    expect(formatDuration(90060)).toBe('1 day, 1 hour and 1 minute');
+  });
 });
