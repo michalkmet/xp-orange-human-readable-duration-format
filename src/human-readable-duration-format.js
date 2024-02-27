@@ -1,17 +1,18 @@
 function formatDuration(ts) {
   console.log('Timestamp: ', ts);
 
-  const timeStrings = ['hour', 'minute', 'second'];
+  const timeStrings = ['day', 'hour', 'minute', 'second'];
 
   let seconds = ts % 60;
   let minutes = Math.floor(ts / 60) % 60;
-  let hours = Math.floor(ts / 3600);
-  console.log('minutes % 60: ', minutes % 60);
+  let hours = Math.floor(ts / 3600) % 24;
+  let day = Math.floor(ts / 86400) % 86400;
   console.log('seconds: ', seconds);
   console.log('minutes: ', minutes);
   console.log('hours: ', hours);
+  console.log('day: ', day);
 
-  const values = [hours, minutes, seconds];
+  const values = [day, hours, minutes, seconds];
   console.log('values: ', values);
 
   if (ts === 0) {
