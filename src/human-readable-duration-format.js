@@ -10,34 +10,25 @@ function formatDuration(ts) {
   let week = Math.floor(ts / 604800) % 4;
   let month = Math.floor(ts / 2419200) % 12;
   let year = Math.floor(ts / 29030400);
-  console.log('seconds: ', seconds);
-  console.log('minutes: ', minutes);
-  console.log('hours: ', hours);
-  console.log('day: ', day);
-  console.log('week: ', week);
-  console.log('month: ', month);
-  console.log('year: ', year);
 
   const values = [year, month, week, day, hours, minutes, seconds];
-  console.log('values : ', values);
 
   if (ts === 0) {
     return 'now';
   }
 
-  let result = [];
+  return concatenateResult(addValuesToResult(values, timeStrings));
+}
 
+function addValuesToResult(values, timeStrings) {
+  let result = [];
   for (let i in values) {
     let value = values[i];
-    console.log('value: ', value);
     if (value > 0) {
       result.push(`${value} ${timeStrings[i]}${oneOrMoreString(value)}`);
     }
   }
-
-  console.log('result: ', result);
-
-  return concatenateResult(result);
+  return result;
 }
 
 function oneOrMoreString(i) {
