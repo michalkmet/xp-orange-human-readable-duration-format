@@ -38,11 +38,19 @@ function oneOrMoreString(i) {
 }
 
 function concatenateResult(res) {
+  console.log('concatenateResult()');
+  console.log('res: ', res);
+  console.log('res.length: ', res.length);
   let str = '';
   for (let i in res) {
     let item = res[i];
-    if (str != '' && i > 0) {
+    console.log('i: ', i);
+    console.log('Number(i + 1): ', Number(i) + 1);
+    console.log(' i + 1 == res.length: ', i + 1 == res.length);
+    if (str != '' && Number(i) + 1 == res.length) {
       str += ' and ';
+    } else if (i != 0) {
+      str += ', ';
     }
     str += item;
   }
