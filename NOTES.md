@@ -69,7 +69,7 @@ Pomodoro 8:
 - ✅ DONE UAT3.1 When I pass 86400 then I want to see '1 day'
 - ✅ DONE UAT3.2 When I pass 90000 then I want to see '1 day and 1 hour'
 - ✅ DONE UAT3.3 When I pass 90060 then I want to see '1 day, 1 hour and 1 minute'
-- ⚠ TODO UAT3.4 When I pass 90061 then I want to see '1 day, 1 hour, 1 minute and 1 second'
+- ✅ DONE UAT3.4 When I pass 90061 then I want to see '1 day, 1 hour, 1 minute and 1 second'
 - ⚠ TODO UAT3.5 When I pass 172800 then I want to see '2 days'
 - ⚠ TODO UAT3.6 When I pass 180000 then I want to see '2 days and 2 hours'
 - ⚠ TODO UAT3.7 When I pass 180120 then I want to see '2 days, 2 hours and 2 minutes'
