@@ -73,4 +73,4 @@ Pomodoro 8:
 - ✅ DONE UAT3.5 When I pass 172800 then I want to see '2 days'
 - ✅ DONE UAT3.6 When I pass 180000 then I want to see '2 days and 2 hours'
 - ✅ DONE UAT3.7 When I pass 180120 then I want to see '2 days, 2 hours and 2 minutes'
-- ⚠ TODO UAT3.8 When I pass 180123 then I want to see '2 days, 2 hours, 2 minutes and 3 seconds'
+- ✅ DONE UAT3.8 When I pass 180123 then I want to see '2 days, 2 hours, 2 minutes and 3 seconds'
