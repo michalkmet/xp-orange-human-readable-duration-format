@@ -82,3 +82,24 @@ formatDuration(14648) -> '4 hours, 4 minutes and 8 seconds'
 
 Example 20:
 formatDuration(86400) -> '1 day'
+
+Example 21:
+formatDuration(90000) -> '1 day and 1 hour'
+
+Example 22:
+formatDuration(90060) -> '1 day, 1 hour and 1 minute'
+
+Example 23:
+formatDuration(90061) -> '1 day, 1 hour, 1 minute and 1 second'
+
+Example 24:
+formatDuration(172800) -> '2 days'
+
+Example 25:
+formatDuration(180000) -> '2 days and 2 hours'
+
+Example 26:
+formatDuration(180120) -> '2 days, 2 hours and 2 minutes'
+
+Example 27:
+formatDuration(180123) -> '2 days, 2 hours, 2 minutes and 3 seconds'

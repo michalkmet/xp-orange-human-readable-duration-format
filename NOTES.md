@@ -59,3 +59,4 @@ Pomodoro 7:
 - ✅ DONE UAT2.7 When I pass 3721 then I want to see '1 hour, 2 minutes and 1 second'
 - ✅ DONE UAT2.8 When I pass 10980 then I want to see '3 hours and 3 minutes'
 - ✅ DONE UAT2.9 When I pass 14648 then I want to see '4 hours, 4 minutes and 8 seconds'
+- ✅ DONE new examples
