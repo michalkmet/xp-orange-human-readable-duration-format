@@ -48,7 +48,10 @@ Michal
 - ✅ DONE new user stories
 - ✅ DONE UAT2.1 When I pass 3600 then I want to see '1 hour'
 - ✅ DONE UAT2.2 When I pass 7200 then I want to see '2 hours'
-- ⚠ TODO UAT2.3 When I pass 3660 then I want to see '1 hour and 1 minute'
+
+Pomodoro 7:
+
+- ✅ DONE UAT2.3 When I pass 3660 then I want to see '1 hour and 1 minute'
 - ⚠ TODO UAT2.4 When I pass 3661 then I want to see '1 hour, 1 minute and 1 second'
 - ⚠ TODO UAT2.5 When I pass 3669 then I want to see '1 hour, 1 minute and 9 seconds'
 - ⚠ TODO UAT2.6 When I pass 3720 then I want to see '1 hour and 2 minutes'
