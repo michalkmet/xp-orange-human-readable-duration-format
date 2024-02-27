@@ -83,4 +83,7 @@ describe('As a user, I want to see time duration for numbers higher than 86400',
   it("UAT3.6 When I pass 180000 then I want to see '2 days and 2 hours'", () => {
     expect(formatDuration(180000)).toBe('2 days and 2 hours');
   });
+  it("UAT3.7 When I pass 180120 then I want to see '2 days, 2 hours and 2 minutes'", () => {
+    expect(formatDuration(180120)).toBe('2 days, 2 hours and 2 minutes');
+  });
 });
