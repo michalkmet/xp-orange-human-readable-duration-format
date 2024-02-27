@@ -1,6 +1,4 @@
 function formatDuration(ts) {
-  console.log('Timestamp: ', ts);
-
   const timeStrings = ['year', 'month', 'week', 'day', 'hour', 'minute', 'second'];
 
   let seconds = ts % 60;
