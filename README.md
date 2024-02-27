@@ -122,3 +122,12 @@ formatDuration(3114061) -> '1 month, 1 week, 1 day, 1 hour, 1 minute and 1 secon
 
 Example 25:
 formatDuration(8733845) -> '3 months, 2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds'
+
+Example 26:
+formatDuration(29030400) -> '1 year'
+
+Example 26:
+formatDuration(32144461) -> '1 year, 1 month, 1 week, 1 day, 1 hour, 1 minute and 1 second'
+
+Example 27:
+formatDuration(66794645) -> '2 years, 3 months, 2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds'

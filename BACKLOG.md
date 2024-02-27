@@ -44,9 +44,16 @@ As a user, I want to see time duration for numbers higher than 604800
 - ⚠ TODO UAT4.2 When I pass 694861 then I want to see '1 week, 1 day, 1 hour, 1 minute and 1 second'
 - ⚠ TODO UAT4.3 When I pass 1476245 then I want to see '2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds'
 
-User Story 5: month
+User Story 5: months
 As a user, I want to see time duration for numbers higher than 2419200
 
 - ⚠ TODO UAT5.1 When I pass 2419200 then I want to see '1 month'
 - ⚠ TODO UAT5.2 When I pass 3114061 then I want to see '1 month, 1 week, 1 day, 1 hour, 1 minute and 1 second'
 - ⚠ TODO UAT5.3 When I pass 8733845 then I want to see '3 months, 2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds'
+
+User Story 5: years
+As a user, I want to see time duration for numbers higher than 29030400
+
+- ⚠ TODO UAT6.1 When I pass 29030400 then I want to see '1 year'
+- ⚠ TODO UAT6.2 When I pass 32144461 then I want to see '1 year, 1 month, 1 week, 1 day, 1 hour, 1 minute and 1 second'
+- ⚠ TODO UAT6.3 When I pass 66794645 then I want to see '2 years, 3 months, 2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds'
