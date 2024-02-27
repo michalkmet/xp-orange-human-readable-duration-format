@@ -1,12 +1,12 @@
 function formatDuration(ts) {
   console.log('Timestamp: ', ts);
 
-  const timeStrings = ['day', 'hour', 'minute', 'second'];
+  const timeStrings = ['week', 'day', 'hour', 'minute', 'second'];
 
   let seconds = ts % 60;
   let minutes = Math.floor(ts / 60) % 60;
   let hours = Math.floor(ts / 3600) % 24;
-  let day = Math.floor(ts / 86400) % 86400;
+  let day = Math.floor(ts / 86400) % 7;
   let week = Math.floor(ts / 604800) % 604800;
   console.log('seconds: ', seconds);
   console.log('minutes: ', minutes);
