@@ -98,4 +98,7 @@ describe('As a user, I want to see time duration for numbers higher than 604800'
   it("UAT4.2 When I pass 694861 then I want to see '1 week, 1 day, 1 hour, 1 minute and 1 second'", () => {
     expect(formatDuration(694861)).toBe('1 week, 1 day, 1 hour, 1 minute and 1 second');
   });
+  it("UAT4.3 When I pass 1476245 then I want to see '2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds'", () => {
+    expect(formatDuration(1476245)).toBe('2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds');
+  });
 });

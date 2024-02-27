@@ -42,4 +42,4 @@ As a user, I want to see time duration for numbers higher than 604800
 
 - ⚠ TODO UAT4.1 When I pass 604800 then I want to see '1 week'
 - ⚠ TODO UAT4.2 When I pass 694861 then I want to see '1 week, 1 day, 1 hour, 1 minute and 1 second'
-- ⚠ TODO UAT4.3 When I pass 694861 then I want to see '2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds'
+- ⚠ TODO UAT4.3 When I pass 1476245 then I want to see '2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds'
