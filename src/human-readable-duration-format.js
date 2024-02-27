@@ -1,20 +1,22 @@
 function formatDuration(ts) {
   console.log('Timestamp: ', ts);
 
-  const timeStrings = ['week', 'day', 'hour', 'minute', 'second'];
+  const timeStrings = ['month', 'week', 'day', 'hour', 'minute', 'second'];
 
   let seconds = ts % 60;
   let minutes = Math.floor(ts / 60) % 60;
   let hours = Math.floor(ts / 3600) % 24;
   let day = Math.floor(ts / 86400) % 7;
-  let week = Math.floor(ts / 604800) % 604800;
+  let week = Math.floor(ts / 604800) % 4;
+  let month = Math.floor(ts / 2419200);
   console.log('seconds: ', seconds);
   console.log('minutes: ', minutes);
   console.log('hours: ', hours);
   console.log('day: ', day);
   console.log('week: ', week);
+  console.log('month: ', month);
 
-  const values = [week, day, hours, minutes, seconds];
+  const values = [month, week, day, hours, minutes, seconds];
   console.log('values : ', values);
 
   if (ts === 0) {

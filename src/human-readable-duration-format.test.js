@@ -1,6 +1,6 @@
 const formatDuration = require('./human-readable-duration-format');
 
-describe('As a user, I want to see time duration for numbers lower than 3600', () => {
+describe('User Story 1: minutes', () => {
   it("UAT1.1 When I pass 0 then I want to see 'now'", () => {
     expect(formatDuration(0)).toBe('now');
   });
@@ -34,7 +34,7 @@ describe('As a user, I want to see time duration for numbers lower than 3600', (
   });
 });
 
-describe('As a user, I want to see time duration for numbers higher than 3600', () => {
+describe('User Story 2: hours', () => {
   it("UAT2.1 When I pass 3600 then I want to see '1 hour'", () => {
     expect(formatDuration(3600)).toBe('1 hour');
   });
@@ -64,7 +64,7 @@ describe('As a user, I want to see time duration for numbers higher than 3600', 
   });
 });
 
-describe('As a user, I want to see time duration for numbers higher than 86400', () => {
+describe('User Story 3: days', () => {
   it("UAT3.1 When I pass 86400 then I want to see '1 day'", () => {
     expect(formatDuration(86400)).toBe('1 day');
   });
@@ -91,7 +91,7 @@ describe('As a user, I want to see time duration for numbers higher than 86400',
   });
 });
 
-describe('As a user, I want to see time duration for numbers higher than 604800', () => {
+describe('User Story 4: weeks', () => {
   it("UAT4.1 When I pass 604800 then I want to see '1 week'", () => {
     expect(formatDuration(604800)).toBe('1 week');
   });
@@ -100,5 +100,11 @@ describe('As a user, I want to see time duration for numbers higher than 604800'
   });
   it("UAT4.3 When I pass 1476245 then I want to see '2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds'", () => {
     expect(formatDuration(1476245)).toBe('2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds');
+  });
+});
+
+describe('User Story 5: month', () => {
+  it("UAT5.1 When I pass 2419200 then I want to see '1 month'", () => {
+    expect(formatDuration(2419200)).toBe('1 month');
   });
 });
