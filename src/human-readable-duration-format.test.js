@@ -116,8 +116,8 @@ describe('User Story 5: 28+ days', () => {
 });
 
 describe('User Story 6: years', () => {
-  it("UAT6.1 When I pass 29030400 then I want to see '1 year'", () => {
-    expect(formatDuration(29030400)).toBe('1 year');
+  it("UAT6.1 When I pass 31536000 then I want to see '1 year'", () => {
+    expect(formatDuration(31536000)).toBe('1 year');
   });
   it("UAT6.2 When I pass 32144461 then I want to see '1 year, 36 days, 1 hour, 1 minute and 1 second'", () => {
     expect(formatDuration(32144461)).toBe('1 year, 36 days, 1 hour, 1 minute and 1 second');
