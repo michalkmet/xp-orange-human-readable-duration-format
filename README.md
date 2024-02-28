@@ -112,7 +112,6 @@ formatDuration(694861) -> '8 days, 1 hour, 1 minute and 1 second'
 
 Example 22:
 formatDuration(1476245) -> '17 days, 2 hours, 4 minutes and 5 seconds'
-1209600 + 259200 + 7200 + 240 + 5 = 1476245
 
 Example 23:
 formatDuration(2419200) -> '28 days'
