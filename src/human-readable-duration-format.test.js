@@ -122,7 +122,7 @@ describe('User Story 6: years', () => {
   it("UAT6.2 When I pass 34650061 then I want to see '1 year, 36 days, 1 hour, 1 minute and 1 second'", () => {
     expect(formatDuration(34650061)).toBe('1 year, 36 days, 1 hour, 1 minute and 1 second');
   });
-  it("UAT6.3 When I pass 66794645 then I want to see '182 days, 1 hour, 44 minutes and 40 seconds'", () => {
-    expect(formatDuration(66794645)).toBe('182 days, 1 hour, 44 minutes and 40 seconds');
+  it("UAT6.3 When I pass 66794645 then I want to see '2 years, 43 days, 2 hours, 4 minutes and 5 seconds'", () => {
+    expect(formatDuration(66794645)).toBe('2 years, 43 days, 2 hours, 4 minutes and 5 seconds');
   });
 });

@@ -56,4 +56,4 @@ As a user, I want to see time duration for numbers higher than 29030400
 
 - ⚠ TODO UAT6.1 When I pass 31536000 then I want to see '1 year'
 - ⚠ TODO UAT6.2 When I pass 34650061 then I want to see '1 year, 36 days, 1 hour, 1 minute and 1 second'
-- ⚠ TODO UAT6.3 When I pass 15731080 then I want to see '182 days, 1 hour, 44 minutes and 40 seconds'
+- ⚠ TODO UAT6.3 When I pass 66794645 then I want to see '2 years, 43 days, 2 hours, 4 minutes and 5 seconds'
