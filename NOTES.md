@@ -105,3 +105,7 @@ Pomodoro 9:
 - ✅ DONE UAT6.3 When I pass 66794645 then I want to see '2 years, 3 months, 2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds'
 
 - ✅ DONE Refactor
+
+Pomodoro 10:
+
+- 🚧 IN PROGRESS remove months and weeks

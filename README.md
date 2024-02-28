@@ -105,29 +105,29 @@ Example 27:
 formatDuration(180123) -> '2 days, 2 hours, 2 minutes and 3 seconds'
 
 Example 20:
-formatDuration(604800) -> '1 week'
+formatDuration(604800) -> '7 days'
 
 Example 21:
-formatDuration(694861) -> '1 week, 1 day, 1 hour, 1 minute and 1 second'
+formatDuration(694861) -> '8 days, 1 hour, 1 minute and 1 second'
 
 Example 22:
-formatDuration(1476245) -> '2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds'
+formatDuration(1476245) -> '17 days, 2 hours, 4 minutes and 5 seconds'
 1209600 + 259200 + 7200 + 240 + 5 = 1476245
 
 Example 23:
-formatDuration(2419200) -> '1 month'
+formatDuration(2419200) -> '28 days'
 
 Example 24:
-formatDuration(3114061) -> '1 month, 1 week, 1 day, 1 hour, 1 minute and 1 second'
+formatDuration(3114061) -> '36 days, 1 hour, 1 minute and 1 second'
 
 Example 25:
-formatDuration(8733845) -> '3 months, 2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds'
+formatDuration(8733845) -> '101 days, 2 hours, 4 minutes and 5 seconds'
 
 Example 26:
 formatDuration(29030400) -> '1 year'
 
 Example 26:
-formatDuration(32144461) -> '1 year, 1 month, 1 week, 1 day, 1 hour, 1 minute and 1 second'
+formatDuration(32144461) -> '1 year, 36 days, 1 hour, 1 minute and 1 second'
 
 Example 27:
-formatDuration(66794645) -> '2 years, 3 months, 2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds'
+formatDuration(15731080) -> '182 days, 1 hour, 44 minutes and 40 seconds'
