@@ -4,7 +4,7 @@ function formatDuration(ts) {
   let seconds = ts % 60;
   let minutes = Math.floor(ts / 60) % 60;
   let hours = Math.floor(ts / 3600) % 24;
-  let day = Math.floor(ts / 86400) % 7;
+  let day = Math.floor(ts / 86400);
   // let week = Math.floor(ts / 604800) % 4;
   // let month = Math.floor(ts / 2419200) % 12;
   let year = Math.floor(ts / 29030400);
