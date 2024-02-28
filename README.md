@@ -127,7 +127,7 @@ Example 26:
 formatDuration(31536000) -> '1 year'
 
 Example 26:
-formatDuration(32144461) -> '1 year, 36 days, 1 hour, 1 minute and 1 second'
+formatDuration(34650061) -> '1 year, 36 days, 1 hour, 1 minute and 1 second'
 
 Example 27:
 formatDuration(15731080) -> '182 days, 1 hour, 44 minutes and 40 seconds'

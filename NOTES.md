@@ -120,5 +120,6 @@ Pomodoro 10:
 Pomodoro 11:
 
 - ✅ DONE UAT6.1 When I pass 31536000 then I want to see '1 year'
-- ⚠ TODO UAT6.2 When I pass 32144461 then I want to see '1 year, 36 days, 1 hour, 1 minute and 1 second'
+- 🚧 IN PROGRESS UAT6.2 When I pass 34650061 then I want to see '1 year, 36 days, 1 hour, 1 minute and 1 second'
+- 31536000 + 3110400 + 3600 + 61
 - ⚠ TODO UAT6.3 When I pass 15731080 then I want to see '182 days, 1 hour, 44 minutes and 40 seconds'
