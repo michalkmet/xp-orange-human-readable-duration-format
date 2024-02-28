@@ -19,6 +19,7 @@ function formatDuration(ts) {
 }
 
 function addValuesToResult(values, timeStrings) {
+  console.log('values: ', values);
   let result = [];
   for (let i in values) {
     let value = values[i];

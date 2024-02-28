@@ -91,27 +91,27 @@ describe('User Story 3: days', () => {
   });
 });
 
-describe('User Story 4: weeks', () => {
-  it("UAT4.1 When I pass 604800 then I want to see '1 week'", () => {
-    expect(formatDuration(604800)).toBe('1 week');
+describe('User Story 4: 7+ days', () => {
+  it("UAT4.1 When I pass 604800 then I want to see '7 days'", () => {
+    expect(formatDuration(604800)).toBe('7 days');
   });
-  it("UAT4.2 When I pass 694861 then I want to see '1 week, 1 day, 1 hour, 1 minute and 1 second'", () => {
-    expect(formatDuration(694861)).toBe('1 week, 1 day, 1 hour, 1 minute and 1 second');
+  it("UAT4.2 When I pass 694861 then I want to see '8 days, 1 hour, 1 minute and 1 second'", () => {
+    expect(formatDuration(694861)).toBe('8 days, 1 hour, 1 minute and 1 second');
   });
-  it("UAT4.3 When I pass 1476245 then I want to see '2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds'", () => {
-    expect(formatDuration(1476245)).toBe('2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds');
+  it("UAT4.3 When I pass 1476245 then I want to see '17 days, 2 hours, 4 minutes and 5 seconds'", () => {
+    expect(formatDuration(1476245)).toBe('17 days, 2 hours, 4 minutes and 5 seconds');
   });
 });
 
-describe('User Story 5: month', () => {
-  it("UAT5.1 When I pass 2419200 then I want to see '1 month'", () => {
-    expect(formatDuration(2419200)).toBe('1 month');
+describe('User Story 5: 28+ days', () => {
+  it("UAT5.1 When I pass 2419200 then I want to see '28 days'", () => {
+    expect(formatDuration(2419200)).toBe('28 days');
   });
-  it("UAT5.2 When I pass 3114061 then I want to see '1 month, 1 week, 1 day, 1 hour, 1 minute and 1 second'", () => {
-    expect(formatDuration(3114061)).toBe('1 month, 1 week, 1 day, 1 hour, 1 minute and 1 second');
+  it("UAT5.2 When I pass 3114061 then I want to see '36 days, 1 hour, 1 minute and 1 second'", () => {
+    expect(formatDuration(3114061)).toBe('36 days, 1 hour, 1 minute and 1 second');
   });
-  it("UAT5.3 When I pass 8733845 then I want to see '3 months, 2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds'", () => {
-    expect(formatDuration(8733845)).toBe('3 months, 2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds');
+  it("UAT5.3 When I pass 8733845 then I want to see '101 days, 2 hours, 4 minutes and 5 seconds'", () => {
+    expect(formatDuration(8733845)).toBe('101 days, 2 hours, 4 minutes and 5 seconds');
   });
 });
 
@@ -119,10 +119,10 @@ describe('User Story 6: years', () => {
   it("UAT6.1 When I pass 29030400 then I want to see '1 year'", () => {
     expect(formatDuration(29030400)).toBe('1 year');
   });
-  it("UAT6.2 When I pass 32144461 then I want to see '1 year, 1 month, 1 week, 1 day, 1 hour, 1 minute and 1 second'", () => {
-    expect(formatDuration(32144461)).toBe('1 year, 1 month, 1 week, 1 day, 1 hour, 1 minute and 1 second');
+  it("UAT6.2 When I pass 32144461 then I want to see '1 year, 36 days, 1 hour, 1 minute and 1 second'", () => {
+    expect(formatDuration(32144461)).toBe('1 year, 36 days, 1 hour, 1 minute and 1 second');
   });
-  it("UAT6.3 When I pass 66794645 then I want to see '2 years, 3 months, 2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds'", () => {
-    expect(formatDuration(66794645)).toBe('2 years, 3 months, 2 weeks, 3 days, 2 hours, 4 minutes and 5 seconds');
+  it("UAT6.3 When I pass 66794645 then I want to see '182 days, 1 hour, 44 minutes and 40 seconds'", () => {
+    expect(formatDuration(66794645)).toBe('182 days, 1 hour, 44 minutes and 40 seconds');
   });
 });

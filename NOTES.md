@@ -108,4 +108,5 @@ Pomodoro 9:
 
 Pomodoro 10:
 
-- 🚧 IN PROGRESS remove months and weeks
+- ✅ DONE remove months and weeks
+- ✅ DONE update tests
